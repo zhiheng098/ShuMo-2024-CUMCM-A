@@ -1,0 +1,13 @@
+# 本项目在 Python 3.14.4 / Windows 11 上验证，Python 3.11 及以上应可运行
+numpy>=2.0
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+openpyxl>=3.1
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.29
+jupyter_client>=8.6
+
+# 仅编译论文时需要（非 Python 依赖）：Typst 0.13+
+# winget install --id Typst.Typst

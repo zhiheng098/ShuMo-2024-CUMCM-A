@@ -1,0 +1,31 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---------- 运行时缓存 ----------
+.mplconfig/
+code/.mplconfig/
+
+# ---------- 验收与临时文件 ----------
+_tmp/
+*.log
+
+# ---------- 大体积中间数据（可由 run_notebook.py 重跑生成） ----------
+code/outputs/*.npz
+
+# ---------- 位图预览（仓库只保留矢量 PDF） ----------
+figures/*.png
+figures_paper/*.png
+!figures/technical_roadmap.png
+
+# ---------- IDE / 编辑器 ----------
+.vscode/
+.codebuddy/
+.idea/
+
+# ---------- 操作系统 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
